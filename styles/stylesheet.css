@@ -1,44 +1,52 @@
+*{
+  box-sizing: border-box;
+  }
 h1{
-  color: purple;
+  color: cyan;
 }
 p{
-  color: red;
-}
-body{
-  background-color: dodgerblue;
-}
-.purple-text {
-  color: #0000FF;
-}
-.important {
-  font-weight: bold;
-}
-.important:hover {
-  background-color: rgba(0,255,0,.5);
-}
-#lead-paragraph {
-  color: hsl(240,0%,0%);
-  font-weight: bold;
-}
-a[href="https://imagecomics.com/"]{
-  padding: 1rem;
-  background-color:orange;
-}
-a[href="http://storm.wnba.com/"]{
-  background-color: blue;
-}
-h1{
-  color: purple;
-  border-style: solid;
-  border-width: 1px;
-  border-color: yellow;
-}
-p.important{
+  color: black;
   width: 75%;
 }
+body{
+  background-color: rgba(245, 216, 0, .9);
+}
+.darkcyan-text{
+  color: hsl(197, 93%, 46%);
+}
+.important{
+  font-weight: bold;
+}
+.important:hover{
+  background-color:pink;
+}
+#lead-paragraph{
+  font-weight: bold;
+}
+#lead-paragraph:hover{
+  background-color:pink;
+}
+a[href="https://github.com/makepeaces0/semantic-elements"]{
+  padding: 1rem;
+  color:hsl(197, 93%, 46%);
+}
+a[href="https://cdn.pixabay.com/photo/2018/07/30/18/47/blood-moon-3573264_960_720.jpg"]{
+  padding: 1rem;
+  color:hsl(197, 93%, 46%);
+}
+a[href="https://upload.wikimedia.org/wikipedia/commons/8/8e/Common_octopus_Octopus_vulgaris_%284681010396%29.jpg"]{
+  padding: 1rem;
+  color: hsl(197, 93%, 46%);
+}
+h1{
+  color: hsl(197, 93%, 46%);
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsl(197, 93%, 46%);
+}
 img{
-  border-style: dashed;
-  border-color: orange;
-  border-width: 3px;
+  border-style: solid;
+  border-color: cyan;
+  border-width: 1px;
   width:25%;
 }
