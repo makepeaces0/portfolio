@@ -3,16 +3,19 @@
   }
 h1{
   color: cyan;
+  font-family: monospace;
 }
 p{
   color: black;
+  font-family: monospace;
   width: 75%;
 }
 body{
   background-color: rgba(245, 216, 0, .9);
+  font-family: monospace;
 }
-.darkcyan-text{
-  color: hsl(197, 93%, 46%);
+.dimgrey-text{
+  color: hsl(238, 0%, 28%);
 }
 .important{
   font-weight: bold;
@@ -48,5 +51,5 @@ img{
   border-style: solid;
   border-color: cyan;
   border-width: 1px;
-  width:25%;
+  height:25%;
 }
