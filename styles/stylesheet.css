@@ -4,6 +4,7 @@
 h1{
   color: cyan;
   font-family: monospace;
+  text-align: center;
 }
 p{
   color: black;
@@ -11,11 +12,12 @@ p{
   width: 75%;
 }
 body{
-  background-color: rgba(245, 216, 0, .9);
+  background-color: rgb(250, 244, 229);
   font-family: monospace;
 }
-.dimgrey-text{
-  color: hsl(238, 0%, 28%);
+.mustard-text{
+  text-align: center;
+  color: hsl(48, 81%, 47%);
 }
 .important{
   font-weight: bold;
