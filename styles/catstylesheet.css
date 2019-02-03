@@ -4,7 +4,7 @@
 h1{
   color: white;
   font-family: helvetica;
-  height: 8rem;
+  height: 11rem;
   background-color: #5DBCD2;
   padding: 3rem;
   margin: 1.5rem 0 0;
@@ -36,9 +36,14 @@ article{
 }
 footer{
   color: white;
-  height: 12rem;
+  height: 15rem;
   background-color: #383B3D;
   text-align: center;
+  padding: 2rem;
+}
+.footer{
+  color: white;
+  padding: .5rem;
 }
 .column1{
   float:left;
@@ -52,6 +57,19 @@ footer{
   content:"";
   display: block;
   clear: both;
+}
+.column3{
+  justify-content:flex-start;
+  width: 33%;
+}
+.column4{
+  justify-content: center;
+  width: 33%;
+}
+.column5{
+  justify-content: flex-end;
+  align-content: space-around;
+  width: 33%;
 }
 img{
   border-width: 1px;
