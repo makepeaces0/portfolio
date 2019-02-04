@@ -10,7 +10,8 @@ header{
 #bannerimage{
   position: relative;
   height: inherit;
-  background-image: #000000 url(../images/lesson-banner-image.jpg) 100% 100% no-repeat;
+  background-image: url(../images/lesson-banner-image.jpg);
+  background-repeat: no-repeat;
   clear: both;
   background-position: center;
   z-index: -1;
@@ -73,7 +74,8 @@ body,html{
 #footerimage{
   position: relative;
   width: 100%;
-  background-image: #000000 url(../images/lesson-banner-image.jpg) 100% 100% no-repeat;
+  background-image: url(../images/lesson-banner-image.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   clear: both;
   display: block;
@@ -81,7 +83,6 @@ body,html{
 .footertext{
   text-align: center;
   position: relative;
-  top: auto;
   color: white;
 }
 .footer{
@@ -106,6 +107,7 @@ body,html{
   clear: both;
 }
 .image{
+  display: flex;
   justify-content: center;
   align-content: center;
 }
