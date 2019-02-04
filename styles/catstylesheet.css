@@ -1,23 +1,38 @@
 *{
   box-sizing: border-box;
   }
-h1{
+
+header{
+  height: 15rem;
   color: white;
-  font-family: helvetica;
-  height: 11rem;
-  background-color: #5DBCD2;
   padding: 3rem;
-  margin: 1.5rem 0 0;
-  overflow: auto;
+}
+#bannerimage{
+  position: relative;
+  height: inherit;
+  background-image: #000000 url(../images/lesson-banner-image.jpg) 100% 100% no-repeat;
+  clear: both;
+  background-position: center;
+  z-index: -1;
+  display: block;
+}
+.bannertext{
+  text-align: left;
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  color: white;
+  z-index: 1;
+  overflow: hidden;
 }
 .nav{
   color: #383B3D;
   font-family: helvetica;
-  height: 4rem;
-  background-color: lightgrey;
-  padding: .5rem;
   font-weight: bold;
   overflow: auto;
+  background-color: lightgrey;
+  padding: 0.5rem;
+  margin: 2rem 3rem 3rem;
 }
 .link{
   color: #5DBCD2;
@@ -30,48 +45,67 @@ body{
   color: #383B3D;
   font-family: helvetica;
 }
-article{
+h4{
   color: #5DBCD2;
   font-family: helvetica;
 }
-footer{
-  color: white;
-  height: 15rem;
-  background-color: #383B3D;
+section{
+  float: left;
+  width: 70%;
+  padding: 3rem;
+  margin-right: 2%;
+
+}
+sidebar{
+  float: right;
+  width: 30%;
+  padding: 3rem;
+  margin-right: 2%;
+  clear: both;
+}
+body,html{
+  height:100%;
+}
+#cat-logo{
+  display: block;
+  position: relative;
+}
+#footerimage{
+  position: relative;
+  width: 100%;
+  background-image: #000000 url(../images/lesson-banner-image.jpg) 100% 100% no-repeat;
+  background-position: center;
+  clear: both;
+  display: block;
+}
+.footertext{
   text-align: center;
-  padding: 2rem;
+  position: relative;
+  top: auto;
+  color: white;
 }
 .footer{
   color: white;
   padding: .5rem;
-}
-.column1{
-  float:left;
-  width: 75%;
-}
-.column2{
-  float: right;
-  width: 25%;
 }
 .clearfix::after{
   content:"";
   display: block;
   clear: both;
 }
+
+/*book-a-cat only below*/
 .column3{
-  justify-content:flex-start;
-  width: 33%;
+  float: left;
+  width: 33.33%;
+  padding: 3rem;
 }
-.column4{
+.row{
+  content:"";
+  display: table;
+  clear: both;
+}
+.image{
   justify-content: center;
-  width: 33%;
-}
-.column5{
-  justify-content: flex-end;
-  align-content: space-around;
-  width: 33%;
-}
-img{
-  border-width: 1px;
-  width:25%;
+  align-content: center;
 }
