@@ -1,23 +1,53 @@
 *{
   box-sizing: border-box;
   }
-h1{
-  color: cyan;
-  font-family: monospace;
+body,html{
+  height:100%;
+}
+#banner-image{
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/northbend.jpg");
+  background-repeat: no-repeat;
+  clear: both;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 15rem;
+  margin-bottom: 2rem;
+}
+.banner-text{
+  text-align: center;
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  clear:both;
+}
+header{
+  color: white;
+  font-family: 'Major Mono Display', monospace;
   text-align: center;
 }
 p{
   color: black;
-  font-family: monospace;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
   width: 75%;
+  text-align: center;
 }
 body{
-  background-color: rgb(250, 244, 229);
-  font-family: monospace;
-}
-.mustard-text{
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
   text-align: center;
-  color: hsl(48, 81%, 47%);
+}
+h2{
+  font-family: 'Megrim', cursive;
+  font-weight: lighter;
+  text-align: center;
+}
+a{
+  text-decoration: none;
 }
 .important{
   font-weight: bold;
@@ -31,6 +61,15 @@ body{
 #lead-paragraph:hover{
   background-color:pink;
 }
+.column{
+  float: left;
+  width: 50%;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
 a[href="https://makepeaces0.github.io/semantic-elements/"]{
   padding: .5rem;
   color: hsl(197, 93%, 46%);
@@ -43,15 +82,32 @@ a[href="https://upload.wikimedia.org/wikipedia/commons/8/8e/Common_octopus_Octop
   padding: .5rem;
   color: hsl(197, 93%, 46%);
 }
-h1{
-  color: hsl(197, 93%, 46%);
-  border-style: solid;
-  border-width: 1px;
-  border-color: hsl(197, 93%, 46%);
+.fa-palette{
+  color: rgb(255, 225, 0);
+}
+.fa-utensils{
+  color: rgb(255, 225, 0);
 }
 img{
-  border-style: solid;
-  border-color: cyan;
-  border-width: 1px;
-  width:25%;
+  width: 100%;
+}
+.box{
+  height: 300px;
+  width: 250px;
+  border: 2px solid rgb(255, 225, 0);
+  background: white;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container{
+  height: 400px;
+  background-color: rgb(255, 225, 0);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /*align items only works if you have a height or width element*/
 }
