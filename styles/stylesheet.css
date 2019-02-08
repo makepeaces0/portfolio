@@ -48,6 +48,7 @@ h2{
 }
 a{
   text-decoration: none;
+  color: rgb(255, 225, 0);
 }
 .important{
   font-weight: bold;
@@ -55,10 +56,10 @@ a{
 .important:hover{
   background-color:pink;
 }
-#lead-paragraph{
+.lead-paragraph{
   font-weight: bold;
 }
-#lead-paragraph:hover{
+.lead-paragraph:hover{
   background-color:pink;
 }
 .column{
@@ -88,13 +89,17 @@ a[href="https://upload.wikimedia.org/wikipedia/commons/8/8e/Common_octopus_Octop
 .fa-utensils{
   color: rgb(255, 225, 0);
 }
+.image{
+  width: 50%;
+  border: 2px solid rgb(300, 280, 0);
+}
 img{
   width: 100%;
 }
 .box{
-  height: 300px;
-  width: 250px;
-  border: 2px solid rgb(255, 225, 0);
+  height: 350px;
+  width: 300px;
+  border: 2px solid rgb(300, 280, 0);
   background: white;
   display: flex;
   align-items: center;
@@ -106,7 +111,7 @@ img{
 
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
   /*align items only works if you have a height or width element*/
