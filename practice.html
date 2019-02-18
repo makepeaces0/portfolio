@@ -1,42 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Projects List</title>
-  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>selector practice</title>
+    <style>
+      p::first-letter { font-size: 200%; }
 
-<body>
+      a[href="http://www.tacoipsum.com/"] {color:red;}
 
-  <header>
-    <img id="banner-image" src="./images/northbend.jpg">
-      <div class="banner-text">
-        <h1>Completed Projects</h1>
-        <h2>Follow the Sun</h2>
-        <nav>
-        <a style="text-decoration:none" href="https://makepeaces0.github.io/portfolio/">About Sierra</a>
-        </nav>
-      </div>
-  </header>
+      p[class^="alert"] {
+        padding: 0.5rem;
+        border: 2px solid;
+      }
+      .alert-success {
+        color: green;
+        background-color: greenyellow;
+        border-color: green;
+      }
+      .alert-error {
+        color: red;
+        background-color: peachpuff;
+        border-color: red;
+      }
+      section ul li:nth-child(odd) { color: orange; }
+      .history p:nth-child(3n+1) { background-color: orange;}
+      footer a:hover {
+        color: magenta;
+        font-size: 150%;
+        font-family: monospace;
+      }
+      aside a {
+        text-decoration: none;
+        color: green;
+      }
+      aside a:visited {
+        color:orange;
+      }
+      aside a:hover {
+        text-decoration: underline;
+      }
 
-  <section class="container">
-      <a class="box" href="https://makepeaces0.github.io/semantic-elements/" class="important">Semantic Elements: An Overview for Beginners
-      <br>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Simpe_HTML_page_DOM.svg/500px-Simpe_HTML_page_DOM.svg.png" alt="Semantic tree."</a>
+    </style>
+  </head>
 
-      <a class="box" href="https://media.defense.gov/2017/Aug/24/2001797886/780/780/0/170821-F-VS255-1003.JPG" class="important">Project 2: Solar eclipse timelapse. Next North America eclipse April 8, 2024
-      <br>
-      <img src="./images/Eclipse-Phases.JPG" alt="Solar eclipse timelapse."</a>
+  <body>
+    <article>
+      <h1>All About Tacos</h1>
+      <section class="history">
+        <h2>History</h2>
+          <a href="http://www.tacoipsum.com/">Taco Ipsum Generator</a>
+        <p>Lorem 1</p>
+        <p class="alert-success">Lorem 2</p>
+        <p>Lorem 3</p>
+        <p class="alert-error">Lorem 4</p>
+        <p>Lorem 5</p>
+        <p class="alert-success">Lorem 6</p>
+        <p>Lorem 7</p>
+      </section>
 
-      <a class="box" href="https://upload.wikimedia.org/wikipedia/commons/8/8e/Common_octopus_Octopus_vulgaris_%284681010396%29.jpg" class="important">Project 3: Cephalopods.
-      <br>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Common_octopus_Octopus_vulgaris_%284681010396%29.jpg" alt="Camoflauge octopus mid-transition."</a>
-  </section>
+      <section>
+        <h2>Common Fillings</h2>
+        <ul>
+          <li>Al Pastor</li>
+          <li>Pollo</li>
+          <li>Barbacoa</li>
+          <li>Soyrizo</li>
+        </ul>
+      </section>
+    </article>
 
+    <article>
+      <h2>Taco Restaurants of Note</h2>
+      <p>Lorem 1</p>
+      <p>Lorem 2</p>
+      <p>Lorem 3</p>
 
-  <footer>
-    <p> Created by S. Makepeace. All Rights Reserved.</p>
-  </footer>
+      <aside>
+        <h3>Learn More About Tacos</h3>
+        <ol>
+          <li><a href="https://en.wikipedia.org/wiki/Taco">Wikipedia: Tacos</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Wheat_tortilla">Wikipedia: Tortillas</a></li>
+          <li><a href="http://www.tacoipsum.com/">Taco Ipsum Generator</a></li>
+        </ol>
+      </aside>
+    </article>
 
-</body>
-  </html>
+    <footer>
+      <p>This page handmade by <a href="https://en.wiktionary.org/wiki/awesome">Sierra Makepeace</a></p>
+    </footer>
+  </body>
+</html>

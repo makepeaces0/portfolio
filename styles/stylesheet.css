@@ -46,6 +46,15 @@ h2{
   font-weight: lighter;
   text-align: center;
 }
+#email{
+  color: black;
+  font-weight: bold;
+}
+#email:hover{
+  font-size: 2rem;
+  transition: font-size 0.5s ease-in 0.5s;
+  color: hsl(197, 93%, 46%);
+}
 a{
   text-decoration: none;
   color: rgb(255, 225, 0);
@@ -79,7 +88,7 @@ a[href="https://media.defense.gov/2017/Aug/24/2001797886/780/780/0/170821-F-VS25
   padding: .5rem;
   color: hsl(197, 93%, 46%);
 }
-a[href="https://upload.wikimedia.org/wikipedia/commons/8/8e/Common_octopus_Octopus_vulgaris_%284681010396%29.jpg"]{
+a[href="https://makepeaces0.github.io/portfolio/cat-news.html"]{
   padding: .5rem;
   color: hsl(197, 93%, 46%);
 }
@@ -93,13 +102,20 @@ a[href="https://upload.wikimedia.org/wikipedia/commons/8/8e/Common_octopus_Octop
   width: 50%;
   border: 2px solid rgb(300, 280, 0);
 }
+.image:nth-child(2n+2){
+  border: 2px solid cyan;
+}
 img{
   width: 100%;
+}
+.box:hover{
+  border: 15px solid rgb(300, 280, 0);
+  transition: border 0.5s ease-in 0.5s;
 }
 .box{
   height: 350px;
   width: 300px;
-  border: 2px solid rgb(300, 280, 0);
+  border: 2px solid rgb(350, 280, 0);
   background: white;
   display: flex;
   align-items: center;
