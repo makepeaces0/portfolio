@@ -33,7 +33,6 @@ p{
   color: black;
   font-family: 'Rajdhani', sans-serif;
   font-weight: lighter;
-  width: 75%;
   text-align: center;
 }
 body{
@@ -78,6 +77,7 @@ a{
 .column{
   flex: 1;
   text-align: center;
+  padding: 2rem;
 }
 
 a[href="https://makepeaces0.github.io/semantic-elements/"]{

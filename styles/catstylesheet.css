@@ -4,29 +4,15 @@
 body,html{
   height:100%;
 }
-#bannerimage{
-  position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/lesson-banner-image.jpg");
-  background-repeat: no-repeat;
-  clear: both;
-  background-position: center;
-  background-size: cover;
-  display: block;
-  height: 15rem;
-  margin-bottom: 2rem;
-}
 .bannertext{
   text-align: left;
-  position: absolute;
-  top: 8rem;
-  right: 50%;
-  transform: translate(-50%, -50%);
   color: white;
-  clear: both;
 }
 header{
   color: white;
   text-align: left;
+  background: url(../images/lesson-banner-image.jpg) no-repeat center 100%;
+  height: 12em;
 }
 .nav{
   color: #383B3D;
@@ -35,7 +21,6 @@ header{
   overflow: auto;
   background-color: lightgrey;
   padding: 0.5rem;
-  margin: 2rem 3rem 3rem;
 }
 .link{
   color: #5DBCD2;
@@ -53,52 +38,46 @@ h4{
   font-family: helvetica;
 }
 section{
-  display: flex;
-  flex-direction: column;
-  width: 70%;
+  float: left;
+  width: 68%;
   padding: 3rem;
   margin-right: 2%;
 
 }
 sidebar{
-  display: flex;
-  flex-direction: column;
-  width: 30%;
+  float: left;
+  width: 28%;
   padding: 3rem;
   margin-right: 2%;
-  clear: both;
+}
+.sidebarcat{
+  width: 175%;
 }
 body,html{
   height:100%;
 }
-#cat-logo{
-  display: block;
-  position: relative;
-}
-#footerimage{
-  position: relative;
-  width: 100%;
-  background-image: url(../images/lesson-banner-image.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  clear: both;
-  display: block;
-}
 .footertext{
   text-align: center;
-  position: relative;
   color: white;
 }
-.footer{
+.footerlink{
   color: white;
   padding: .5rem;
+  width: 100%;
+  height: 100%;
 }
 .clearfix::after{
   content:"";
-  display: block;
-  clear: both;
 }
-
+footer{
+  clear: both;
+  background-image: url(../images/lesson-footer-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+a{
+  text-decoration: none;
+}
 /*book-a-cat only below*/
 .column3{
   float: left;
