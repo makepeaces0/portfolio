@@ -71,7 +71,6 @@ nav{
 /* Instructor Images*/
 .column {
   flex: 25%;
-  padding: 2rem;
 }
 .row{
   display: flex;
