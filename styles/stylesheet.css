@@ -52,10 +52,12 @@ h2{
 #email:hover{
   font-size: 2rem;
   transition: font-size 0.5s ease-in 0.5s;
+  /* blue font color*/
   color: hsl(197, 93%, 46%);
 }
 a{
   text-decoration: none;
+  /* yellow font color */
   color: rgb(255, 225, 0);
 }
 .important{

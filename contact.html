@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles/contactstylesheet.css">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+      @import url('https://fonts.googleapis.com/css?family=Megrim');
+      @import url('https://fonts.googleapis.com/css?family=Abel|Rajdhani');
+    </style>
+
+  </head>
+
+  <body>
+    <header>
+      <img id="banner-image" src="./images/northbend.jpg" alt="Northbend Washington mountain top view of the sunset.">
+        <div class="banner-text">
+          <h1>Contact Sierra</h1>
+          <nav>
+          <a href="https://makepeaces0.github.io/portfolio/projects-list.html">See Sierra's Projects</a>
+          </nav>
+        </div>
+    </header>
+
+    <form method="GET">
+      <label class="question">Your Name:
+        <input type="text" name="applicantName">
+      </label>
+
+      <label class="question">Your Email:
+        <input type="email" name="applicantEmail">
+      </label>
+
+      <fieldset class="radio">
+        <legend class="question">What can Sierra help you achieve?</legend>
+        <label>
+          <input type="radio" name="find" value="one website">One Awesome Website
+          <span class="radiobutton"></span>
+        </label>
+        <label>
+          <input type="radio" name="find" value="multiple sites">More Than One Awesome Website
+          <span class="radiobutton"></span>
+        </label>
+        <label>
+          <input type="radio" name="find" value="consultation">Not Sure Yet
+          <span class="radiobutton"></span>
+        </label>
+        <label>
+          <input type="radio" name="find" value="lonely">Happiness Through Friendship
+          <span class="radiobutton"></span>
+        </label>
+      </fieldset>
+
+      <fieldset class="radio">
+        <legend class="question">How complex is the project you're requesting?</legend>
+        <label>
+          <input type="radio" name="complex" value="simple">Simple: Starting fresh and site is for information only
+          <span class="radiobutton"></span>
+        </label>
+        <label>
+          <input type="radio" name="complex" value="medium">Medium: Some animation and interaction, data storage needed
+          <span class="radiobutton"></span>
+        </label>
+        <label>
+          <input type="radio" name="complex" value="complex">Complex: Fullly interactive and responsive on all platforms (computer, mobile, tablet)
+          <span class="radiobutton"></span>
+        </label>
+      </fieldset>
+
+      <label class="question">Provide a short synopsis of your project:
+        <textarea name="applicantReason" rows="4" cols="50">Spill your heart out</textarea>
+      </label>
+
+
+      <label class="question">What is the deadline for your project?
+        <input type="date" name="deadline">
+      </label>
+
+
+      <input type="submit" value="Send!">
+
+  </body>
+</html>
