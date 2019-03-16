@@ -9,13 +9,13 @@
 } */
 a{
   text-decoration: none;
-  color: #03a3df;
+  color: #035c7c;
 }
 h1{
   color: white;
 }
 h3{
-  color: #03a3df;
+  color: ##035c7c;
   opacity: 0.5;
 }
 header{
@@ -54,8 +54,8 @@ nav{
   grid-row-start: 2;
   grid-row-end: 2;
   color: white;
-  background-color: #03a3df;
-  opacity: 0.5;
+  background-color: #035c7c;
+  opacity: 0.8;
   padding: 2rem;
 }
 .grid3-ourteam{
@@ -113,11 +113,11 @@ nav{
   display: inline
 }
 .fa-seedling{
-  color: #03a3df;
+  color: #035c7c;
   font-size: 5rem;
 }
 .fa-tree{
-  color: #03a3df;
+  color: #035c7c;
   font-size: 5rem;
 }
 
