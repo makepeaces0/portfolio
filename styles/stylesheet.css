@@ -134,3 +134,11 @@ img{
   align-items: center;
   /*align items only works if you have a height or width element*/
 }
+.sr-only{
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

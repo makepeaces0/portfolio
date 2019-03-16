@@ -11,6 +11,11 @@ h1{
   font-family: 'Major Mono Display', monospace;
   text-align: center;
 }
+h2{
+  font-family: 'Megrim', cursive;
+  font-weight: lighter;
+  text-align: center;
+}
 /* Bannerimage and text taken from main page stylesheet */
 body,html{
   height:100%;
@@ -36,6 +41,14 @@ body,html{
   transform: translate(-50%, -50%);
   color: white;
   clear:both;
+}
+.hidden{
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+.hidden:focus{
+  left: 0;
 }
 a{
   text-decoration: none;
